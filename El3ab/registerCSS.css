@@ -1,0 +1,31 @@
+.txt {
+    float: right;
+    font-family: cursive;
+    color: darkblue;
+}
+
+.lbl {
+    padding-right: 20px;
+    font-family: cursive;
+    font-size: 15;
+    color: blue;
+}
+
+#btn {
+    width: 100%;
+    height: 30px;
+    font-family: monospace;
+    font-size: 15;
+}
+
+#title {
+    text-align: center;
+    font-family: monospace;
+    font-size: 40;
+    color: darkslateblue;
+}
+
+#regForm {
+    margin-left: 170;
+    margin-top: 70;
+}

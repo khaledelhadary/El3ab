@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin : 0 ;
+  padding : 0 ;
+  background:url("batl.jpg");
+  background-size : cover ;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+{
+  box-sizing: border-box;
+}
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  margin-right : 1600px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: black;
+}
+
+.login{
+  style="color:blue;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: gray;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    <h1 class = "login"  style="color:white;">Login</h1>
+
+    <label for="email"><b style="color:white;">Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b style="color:white;">Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn" >Login</button>
+  </form>
+</div>
+
+</body>
+</html>
